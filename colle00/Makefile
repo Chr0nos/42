@@ -9,7 +9,7 @@ EXEC=colle
 
 all: $(EXEC)
 
-colle: ft_putchar.o colle00.o main.o
+colle: ft_putchar.o colle-00.o main.o
 	$(CC) -o $@ $^ $(LDFLAGS)
 
 %.o: %.c
