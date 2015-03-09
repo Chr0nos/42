@@ -2,11 +2,6 @@
 
 int main(void)
 {
-    int x;
-    int y;
-
-    x = 5;
-    y = 3;
-    colle(x, y);
+    colle(4, 4);
     return 0;
 }
